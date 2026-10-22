@@ -1,0 +1,12 @@
+:root { --night:#0D1530; --raised:#1A2650; --text:#F4EFE3; --mist:#C9D2EA; --gold:#FFC94A; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--night); color:var(--text); font:17px/1.6 "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+h1,h2,h3 { font-family:"Fredoka", system-ui, sans-serif; line-height:1.2; }
+h1 { color:var(--gold); font-size:2rem; margin-top:8px; }
+h2 { margin-top:2em; font-size:1.3rem; }
+a { color:var(--gold); }
+p, li { color:var(--mist); }
+.card { background:var(--raised); border-radius:18px; padding:20px 22px; margin:18px 0; }
+.muted { font-size:.9rem; opacity:.8; }
+nav a { margin-right:16px; display:inline-block; }
